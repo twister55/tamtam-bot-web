@@ -10,12 +10,12 @@
       "handle": "filesystem"
     },
     {
-      "src": "/.*",
-      "dest": "/api/vercel-ssr/index.js"
-    },
-    {
       "src": "/proxy",
       "dest": "https://botapi.tamtam.chat/"
+    },
+    {
+      "src": "/.*",
+      "dest": "/api/vercel-ssr/index.js"
     }
   ]
 }
